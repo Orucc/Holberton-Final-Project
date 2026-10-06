@@ -1,0 +1,22 @@
+# runtime data (events db, spool, agent ids, alerts.jsonl)
+data/
+certs/*.key
+certs/*.crt
+certs/*.srl
+geoip/*.mmdb
+
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# editors / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
