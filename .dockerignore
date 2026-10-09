@@ -1,0 +1,28 @@
+# VCS / editors
+.git
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# python build artifacts and virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# runtime data (SQLite store, spool, alerts.jsonl) - seeded fresh on start
+data/
+
+# test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TLS material never belongs in the demo image
+certs/
