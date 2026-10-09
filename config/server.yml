@@ -30,7 +30,7 @@ ingest:
 
 api:
   host: 0.0.0.0
-  port: 8080
+  port: "${PORT:-8080}"        # PaaS (Render etc.) injects PORT; defaults to 8080
   token: "${KB_API_TOKEN:-}"   # empty = no authentication (isolated lab). Set it for the demo!
   cors: false
 
